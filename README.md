@@ -1,3 +1,9 @@
 # Profile Website
 
-Originally made by [@N1k0s1](https://github.com/N1k0s1/Vine)
+### An interactive, retro terminal-style website built with React.
+
+[krunchon.tech](https://krunchon.tech)
+
+[krunch.hackclub.app](https://krunch.hackclub.app)
+
+[krunch.is-a.dev](https://krunch.is-a.dev)

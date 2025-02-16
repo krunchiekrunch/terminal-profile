@@ -231,7 +231,7 @@ function Terminal() {
                   <span style={{ color: "#33FF57" }}>Kernel:</span> Linux 6.6.74+rpt-rpi-v8<br />
                   <span style={{ color: "#33FF57" }}>Uptime:</span> 1 day, 18 hours, 24 mins<br />
                   <span style={{ color: "#33FF57" }}>Resolution:</span> 1920x1080<br />
-                  <span style={{ color: "#33FF57" }}>DE:</span> GNOME 43.9 (wayland)<br />
+                  <span style={{ color: "#33FF57" }}>DE:</span> LXDE<br />
                   <span style={{ color: "#33FF57" }}>WM:</span> Openbox (X11)<br />
                   <span style={{ color: "#33FF57" }}>Theme:</span> Clearlooks<br />
                   <span style={{ color: "#33FF57" }}>Terminal:</span> /dev/pts/0<br />
