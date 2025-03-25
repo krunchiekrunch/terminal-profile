@@ -1,6 +1,6 @@
 {
   "short_name": "Terminal",
-  "name": "An interactive terminal-style website built with React.",
+  "name": "An interactive terminal styled profile site built with ReactJS.",
   "icons": [
     {
       "src": "favicon.ico",

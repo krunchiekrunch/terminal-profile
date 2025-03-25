@@ -1,6 +1,6 @@
 {
   "homepage": "",
-  "name": "vine",
+  "name": "profile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,8 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "PORT=36927 react-scripts start",
+    "start": "react-scripts start",
+    "neststart": "PORT=36927 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

@@ -1,8 +1,12 @@
 # Profile Website
 
-### An interactive, retro terminal-style website built with React.
+### An interactive terminal styled profile site built with ReactJS.
 
 [krunchon.tech](https://krunchon.tech)
+
+[krunchie.xyz](https://krunchie.xyz)
+
+[taxfraud.xyz](https://taxfraud.xyz)
 
 [krunch.hackclub.app](https://krunch.hackclub.app)
 
