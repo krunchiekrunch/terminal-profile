@@ -101,9 +101,9 @@ function Terminal() {
           previousCommand = CommandArea.value;
           setprevusedCommand((prevArray) => [...prevArray, "guest@krunch.local:~$ " + previousCommand]);
           if (CommandArea.value === "github") {
-            window.open("https://github.com/RadioactivePotato", '_blank');
+            window.open("https://github.com/krunchiekrunch", '_blank');
           } else if (CommandArea.value === "source") {
-            window.open("https://github.com/RadioactivePotato/profile", '_blank');
+            window.open("https://github.com/krunchiekrunch/terminal-profile", '_blank');
           } else if (CommandArea.value === "discord") {
             window.open("https://discordapp.com/users/1166013268008120340", '_blank');
           }
@@ -170,10 +170,10 @@ function Terminal() {
         <ul className='previousCommands' id='console23'>
           {prevusedCommand.map((item, index) => {
             if (item.match(new RegExp(`\\b${"github"}\\b`, 'g'))) {
-              return <li key={index}>{item}<br></br><br></br><span style={{ color: "#c9c9c9" }}>Opened the URL to my GitHub in a new tab: https://github.com/RadioactivePotato</span><br></br><br></br></li>;
+              return <li key={index}>{item}<br></br><br></br><span style={{ color: "#c9c9c9" }}>Opened the URL to my GitHub in a new tab: https://github.com/krunchiekrunch</span><br></br><br></br></li>;
             }
             else if (item.match(new RegExp(`\\b${"source"}\\b`, 'g'))) {
-              return <li key={index}>{item}<br></br><br></br><span style={{ color: "#c9c9c9" }}>Opened the source code of this site in a new tab: https://github.com/RadioactivePotato/profile</span><br></br><br></br></li>;
+              return <li key={index}>{item}<br></br><br></br><span style={{ color: "#c9c9c9" }}>Opened the source code of this site in a new tab: https://github.com/krunchiekrunch/terminal-profile</span><br></br><br></br></li>;
             }
             else if (item.match(new RegExp(`\\b${"discord"}\\b`, 'g'))) {
               return <li key={index}>{item}<br></br><br></br><span style={{ color: "#c9c9c9" }}>Opened the URL to my Discord in a new tab: https://discordapp.com/users/1166013268008120340</span><br></br><br></br></li>;
